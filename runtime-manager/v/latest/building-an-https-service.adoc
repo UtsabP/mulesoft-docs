@@ -62,7 +62,7 @@ To make HTTP requests to external addresses, use an HTTP Request element instead
         <tls:context>
             <tls:key-store path="keystore.jks" password="password" keyPassword="${keystore.password}"/>
         </tls:context>
-    </http:listener-config>
+    </http:request-config>
 
 ...
 
